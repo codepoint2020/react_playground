@@ -1,0 +1,10 @@
+.dark-bg {
+    background-color: #43474b !important;
+    height: 100vh;
+    color: #fff;
+    padding-top: 20px;
+}
+
+table {
+    color: #fff !important;
+}

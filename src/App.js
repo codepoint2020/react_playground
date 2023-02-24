@@ -1,24 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState } from "react";
+import "./App.css";
+
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+  const [visible, setVisibility] = useState(true);
+
+  function toggleHandler() {
+    setVisibility(!visible);
+  }
+
+  let mycontent;
+
+  if (visible) {
+    mycontent = 
+    <div className="mydiv2">
+        <h2>This is the target div</h2>
+        <p>lorem ipsum</p>
     </div>
+  }
+
+  return (
+   <>
+      <div className="container">
+        <div className="mydiv">
+          <button onClick={toggleHandler}>Click Me</button>
+          {mycontent}
+        </div>
+      </div>
+   </>
   );
 }
 
