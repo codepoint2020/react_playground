@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import CreateElems from './CreateElems';
+import Remov from './Remov';
+// import CreateElems from './CreateElems';
 // import App from './App';
 
 import './bootstrap.css'
@@ -9,8 +10,7 @@ import reportWebVitals from './reportWebVitals';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    {/* <App /> */}
-    <CreateElems />
+    <Remov />
   </React.StrictMode>
 );
 
