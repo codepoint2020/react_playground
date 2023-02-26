@@ -1,16 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import UpdateElems from './UpdateElems';
+// import Test from './Test';
+import Todo1 from './Todo1';
 // import CreateElems from './CreateElems';
 // import App from './App';
 
-// import './bootstrap.css'
+import './bootstrap.css';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <UpdateElems />
+    <Todo1 />
+    {/* <Test /> */}
   </React.StrictMode>
 );
 

@@ -60,6 +60,8 @@ function App() {
   const [updateIndex, setUpdateIndex] = useState(null);
   const [updateValue, setUpdateValue] = useState('');
 
+  console.log(setUpdateIndex);
+
   const handleUpdate = (event) => {
     event.preventDefault();
     const updatedItems = [...items]; // create a copy of the original array
