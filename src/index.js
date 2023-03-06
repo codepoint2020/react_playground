@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 // import Test from './Test';
-import Crud2 from './Crud2';
+import Crud5 from './Crud5';
 // import CreateElems from './CreateElems';
 // import App from './App';
 
@@ -11,7 +11,7 @@ import reportWebVitals from './reportWebVitals';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Crud2 />
+    <Crud5 />
     {/* <Crud1 /> */}
     {/* <Test /> */}
   </React.StrictMode>

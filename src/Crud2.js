@@ -96,7 +96,7 @@ const execDel = (i) => {
         <>
             <div className='container p-4  mt-4'>
                 <div className='row'>
-                    <h1 className='text-center h2 bg-secondary p-4 m-4'>Create Read Update Delete</h1>
+                    <h1 className='text-center h2 bg-secondary p-4 m-4'>Create Read Update Delete 4</h1>
                     <div className='col-md-6'>
                         <form onSubmit={isEditing ? submitHandler  : updateHandler}>
                             <div className="mb-3">
