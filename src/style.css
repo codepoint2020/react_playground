@@ -8,3 +8,12 @@
 table {
     color: #313030 !important;
 }
+
+
+.navbar ul {
+    display: inline !important;
+}
+
+body {
+    background-color: red;
+}

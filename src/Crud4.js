@@ -14,6 +14,7 @@ function Crud4() {
     //firstname on change
     const changedFirstname = (event) => {
         setNewFname(event.target.value);
+        console.log(newFname);
     }
 
      //lastname state
@@ -84,7 +85,7 @@ function Crud4() {
         let newEntry = {firstname: newFname, lastname: newLname, city: newCity};
         copyData = [...copyData, newEntry];
         setMyData(copyData);
-        console.log(myData)
+        console.log(newFname);
         console.log('submit');
     }
 
